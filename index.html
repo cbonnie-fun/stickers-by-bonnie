@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stickers by Bonnie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Quicksand:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="container">
+      <a href="#" class="logo">Stickers by Bonnie</a>
+      <ul class="nav-links">
+        <li><a href="#gallery">Stickers</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Stick your world with joy!</h1>
+        <p>Hand-drawn, cute, and quirky stickers for your journals, laptops, and life.</p>
+        <a href="#gallery" class="btn btn-primary">Shop stickers</a>
+      </div>
+      <div class="hero-decoration">
+        <!-- Decorative elements could go here -->
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <h2 class="section-title">Fresh from my studio</h2>
+        <div class="sticker-grid">
+          <div class="sticker-card">
+            <div class="card-image">
+              <img src="/assets/sticker1.png" alt="Trader Joe's mini totes stickers">
+            </div>
+            <div class="card-info">
+              <h3>Trader Joe's toes</h3>
+              <p class="price">$4.00</p>
+            </div>
+          </div>
+          <div class="sticker-card">
+            <div class="card-image">
+              <img src="/assets/sticker2.png" alt="Rave vibes stickers">
+            </div>
+            <div class="card-info">
+              <h3>Rave vibes</h3>
+              <p class="price">$5.00</p>
+            </div>
+          </div>
+          <div class="sticker-card">
+            <div class="card-image">
+              <img src="/assets/sticker3.png" alt="Cute Sticker Sheet 3">
+            </div>
+            <div class="card-info">
+              <h3>Pirate Adventure</h3>
+              <p class="price">$4.50</p>
+            </div>
+          </div>
+          <div class="sticker-card">
+            <div class="card-image">
+              <img src="/assets/sticker4.png" alt="Rave Babe Sticker">
+            </div>
+            <div class="card-info">
+              <h3>Rave Babe</h3>
+              <p class="price">$3.50</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="interest-check" class="interest-section">
+      <div class="container interest-content">
+        <h2>Want to buy these?</h2>
+        <p>Let me know if you'd like to see these in a shop!</p>
+        <button id="thumbs-up-btn" class="thumbs-up-btn" aria-label="I'm interested!">
+          <span class="icon">👍</span>
+          <span class="count" id="interest-count">124</span>
+        </button>
+        <p id="thank-you-msg" class="hidden">Thanks for the love! 💖</p>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container about-content">
+        <div class="about-text">
+          <h2 class="section-title">Hi, I'm Bonnie!</h2>
+          <p>I'm a sticker artist based in New York City. I love drawing cute things that make people smile. All my
+            stickers
+            are handmade with love and a little bit of magic.</p>
+          <p>When I'm not drawing, I'm writing code or petting my dog.</p>
+        </div>
+        <div class="about-image">
+          <div class="avatar-circle">
+            <img src="/assets/bonnie.png" alt="Bonnie">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Stickers by Bonnie. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/itsbonniebtw">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
