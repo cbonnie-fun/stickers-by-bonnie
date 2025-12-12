@@ -199,18 +199,22 @@ body {
   font-size: 1.1rem;
 }
 
-/* Interest Widget */
-.interest-section {
+/* Purchase Instructions */
+.purchase-section {
   padding: 60px 0;
   background-color: var(--color-secondary);
   text-align: center;
   color: var(--color-text);
 }
 
-.interest-content h2 {
+.purchase-instructions h2 {
   font-family: var(--font-heading);
   font-size: 2rem;
   margin-bottom: 10px;
+}
+
+.purchase-instructions p {
+  font-size: 14pt;
 }
 
 .thumbs-up-btn {
